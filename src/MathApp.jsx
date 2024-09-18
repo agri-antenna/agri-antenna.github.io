@@ -2,7 +2,7 @@ import { useState, useRef } from "react";
 import styles from "./styles.module.css";
 
 export default function MathApp() {
-    const [number, setNumber] = useState(1);
+    const [number, setNumber] = useState("");
     const [total, setTotal] = useState(1);
     const answerInput = useRef(null);
     const digitsInput = useRef(null);
